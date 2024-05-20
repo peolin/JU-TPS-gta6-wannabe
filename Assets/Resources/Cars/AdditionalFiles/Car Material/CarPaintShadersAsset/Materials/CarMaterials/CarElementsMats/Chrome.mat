@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Chrome
+  m_Shader: {fileID: 4800000, guid: e3f09075e98950e46a06757006727be6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 8b5e3f0ab0510a64385f5b656728141c, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMap:
+        m_Texture: {fileID: 2800000, guid: e5107355b926f67409bde9ae8af02654, type: 3}
+        m_Scale: {x: 50, y: 50}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapLookup:
+        m_Texture: {fileID: 2800000, guid: ddc7197508bf2054ba4b7bf67c2d547c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionMap:
+        m_Texture: {fileID: 8900000, guid: b2ab35563b2e2794eb173c310a52347c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 8900000, guid: a8e488472a8f24193a51cc9a89d0028f, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DetailMapDepthBias: 1
+    - _ReflectionStrength: 0.42857143
+    - _Shininess: 0.95567167
+    m_Colors:
+    - _BaseColor: {r: 0.64705884, g: 0.64705884, b: 0.64705884, a: 1}
+    - _Color: {r: 0.097014904, g: 0.097014904, b: 0.097014904, a: 1}
+    - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailMapParams: {r: 200, g: 200, b: 1, a: 1}
+    - _DiffuseColor: {r: 0.58823526, g: 0.58823526, b: 0.58823526, a: 1}
+    - _ReflectColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ReflectionColor: {r: 0.6691177, g: 0.6691177, b: 0.6691177, a: 0}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
